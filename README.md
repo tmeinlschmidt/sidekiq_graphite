@@ -34,4 +34,6 @@ with `config.yml.example` - graphite metrics will look like - for example:
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-This project rocks and uses MIT-LICENSE.
+## Copyright
+
+Copyright @ 2014 Tom Meinlschmidt. See [MIT-LICENSE](https://github.com/tmeinlschmidt/sidekiq_graphite/blob/master/LICENSE) for details
