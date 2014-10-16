@@ -1,0 +1,23 @@
+# seconds between measurement
+general:
+  poll: 30
+
+# redis settings
+redis:
+  sentinel_master_name: master
+  sentinels:
+    - host: 10.10.10.100
+      port: 17700
+    - host: 10.10.10.101
+      port: 17700
+    - host: 10.10.10.102
+      port: 17700
+  namespace: my_namespace
+
+# graphite settings
+graphite:
+  host: 10.10.10.111
+  port: 2003
+  prefix: my_prefix.sidekiq
+  interval: 30
+  slice: 30
